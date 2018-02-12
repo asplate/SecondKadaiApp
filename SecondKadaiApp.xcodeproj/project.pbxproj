@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0607C3A8203178B0002359C8 /* GreetingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607C3A7203178B0002359C8 /* GreetingController.swift */; };
 		06A015712031761500EEA987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A015702031761500EEA987 /* AppDelegate.swift */; };
 		06A015732031761500EEA987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A015722031761500EEA987 /* ViewController.swift */; };
 		06A015762031761500EEA987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A015742031761500EEA987 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0607C3A7203178B0002359C8 /* GreetingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingController.swift; sourceTree = "<group>"; };
 		06A0156D2031761500EEA987 /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A015702031761500EEA987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06A015722031761500EEA987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				06A015772031761500EEA987 /* Assets.xcassets */,
 				06A015792031761500EEA987 /* LaunchScreen.storyboard */,
 				06A0157C2031761500EEA987 /* Info.plist */,
+				0607C3A7203178B0002359C8 /* GreetingController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0607C3A8203178B0002359C8 /* GreetingController.swift in Sources */,
 				06A015732031761500EEA987 /* ViewController.swift in Sources */,
 				06A015712031761500EEA987 /* AppDelegate.swift in Sources */,
 			);

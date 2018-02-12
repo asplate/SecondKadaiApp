@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    @IBOutlet weak var inputName: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +23,16 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のGreetingViewControllerを取得する
+        let greetingViewController:GreetingController = segue.destination as! GreetingController
+        // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
+        greetingViewController.name = inputName!.text
     }
 
 
